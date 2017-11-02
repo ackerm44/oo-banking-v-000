@@ -9,6 +9,7 @@ class Transfer
   end
 
   def valid?
-    sender.valid?
+    puts sender.valid?
+    puts receiver.valid?
   end
 end
