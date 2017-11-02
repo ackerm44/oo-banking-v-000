@@ -19,7 +19,7 @@ class BankAccount
   def valid?
     puts status
     puts balance
-    @status = "open" && @balance > 0
+    @status == "open" && @balance > 0
   end
 
 end
